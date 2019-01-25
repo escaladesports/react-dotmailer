@@ -1,0 +1,26 @@
+{
+  "name": "react-dotmailer",
+  "version": "1.0.0",
+  "description": "React component for embedding dotmailer forms",
+  "main": "src/index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escaladesports/react-dotmailer.git"
+  },
+  "author": "Matt Suhay <matthew.suhay@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/escaladesports/react-dotmailer/issues"
+  },
+  "homepage": "https://github.com/escaladesports/react-dotmailer#readme",
+  "dependencies": {
+    "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "esca-scripts": "^1.5.4"
+  },
+  "scripts": {
+    "build": "esca-scripts build --react --component --babel --input src --output dist --multiple"
+  }
+}
