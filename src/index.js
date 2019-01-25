@@ -3,13 +3,14 @@ import React from 'react'
 export default class Dotmailer extends React.Component {
 	render() {
 		const { src, id, className = "ds-if" } = this.props
+		const embed = src.indexOf(`/embed/script/`) !== -1
 
 		return (
 			<iframe 
 				className={className}
 				id={id} 
 				name={id} 
-				src={`${src}&pUrl=${encodeURIComponent(document.location)}`} 
+				src={embed ? `//r2.dotmailer-surveys.com/Response/Survey/${id}?source=e&name=${id}` : src} 
 				width="100%"
 				frameBorder="0"
 				scrolling="no"
