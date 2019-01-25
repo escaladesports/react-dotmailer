@@ -1,6 +1,6 @@
 {
   "name": "react-dotmailer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component for embedding dotmailer forms",
   "main": "dist/index.js",
   "keywords": [],
