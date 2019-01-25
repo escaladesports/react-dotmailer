@@ -2,7 +2,7 @@
   "name": "react-dotmailer",
   "version": "1.0.1",
   "description": "React component for embedding dotmailer forms",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "keywords": [],
   "repository": {
     "type": "git",
