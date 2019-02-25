@@ -17,7 +17,7 @@ export default class Dotmailer extends React.Component {
 				}
 				width="100%"
 				frameBorder="0"
-				scrolling={`${this.props.scrolling}`}
+				scrolling={`${this.props.scrolling || `no`}`}
 				style={{
 					border: `none 0!important`,
 					margin: `0!important`,
